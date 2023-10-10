@@ -18,3 +18,10 @@ O segundo passo gera uma árvore geradora mínima (grafo que conecta todos os po
 
 E esse grafo é esparso, o que abre brecha para testar se utilizando o HDBSCAN* podemos encontrar resultados melhores que o atual estado da arte.
 
+O trabalho foi inspirado em um artigo publicado por Souza et al em 2013, em que utilizaram diversos métodos de construção de grafos e compararam seus resultados através do erro e derivação médio em diversos datasets, escolhidos por Chapelle em seu livro que é tido como uma bíblia do aprendizado semissupervisionado, no exemplo abaixo vemos as comparações de souza em cada método para cada dataset:
+
+<p align="center">
+  <img width="500" alt="image" src="https://github.com/rnlobao/graph-construction-SSL/assets/66230142/53d9158f-1b65-4c78-96df-c4cd6327242b">
+</p>
+
+
