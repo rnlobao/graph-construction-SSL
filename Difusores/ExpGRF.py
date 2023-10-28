@@ -1,6 +1,6 @@
 import numpy as np
 import time
-import GRF
+import GRF, ActualState, Utils
 
 class ExpGRF:
     positiveLabel = 1
@@ -80,7 +80,6 @@ class ExpGRF:
         D = Utils.computeDiagonalValues(graph.getWeightedMatrix())
         L = Utils.normalizedLaplacian(graph.getWeightedMatrix(), D)
         normLaplacian = L.tolist()
-
         orderedNumbers = Utils.orderedNumbers(n)
         labels = [0] * n
 
