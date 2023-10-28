@@ -1,6 +1,6 @@
 import numpy as np
 import time
-import GRF, ActualState, Utils
+from . import GRF, ActualState, Utils
 
 class ExpGRF:
     positiveLabel = 1

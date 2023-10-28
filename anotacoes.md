@@ -8,3 +8,6 @@ Eu nao preciso do parametro de return, entretanto preciso descobrir onde está o
 25/10:
 Inseri manualmente 10 rotulos de forma aleatoria e tive problema em plotar eles, consegui um codigo de LGC, mandei msg no linkedin: https://github.com/provezano/lgc/blob/master/lgc.py
 Queria os códigos do celso de difusão de rótulos, estou tentando tornar visual para facilitar o entendimento.
+
+28/10:
+Preciso traduzir gaussian random fields!
