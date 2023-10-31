@@ -11,3 +11,7 @@ Queria os códigos do celso de difusão de rótulos, estou tentando tornar visua
 
 28/10:
 Preciso traduzir gaussian random fields!
+
+30/10:
+jupyter nbconvert --clear-output --inplace graph-construction-ssl.ipynb
+Para traduzir para o python devo me atentar que algumas funcs do graph nao estao implementadas da mesma forma, depois tenho que perguntar se preciso atribuir esse id e as labels mesmo.
